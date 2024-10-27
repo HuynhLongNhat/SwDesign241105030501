@@ -22,6 +22,8 @@
 
 - **Security**: Hệ thống phải đảm bảo rằng chỉ nhân viên có quyền mới có thể xem và chỉnh sửa dữ liệu cá nhân của họ. Ngoài ra, cần ngăn chặn truy cập trái phép để bảo vệ thông tin nhạy cảm về nhân viên và tiền lương. Bảo mật giúp duy trì quyền riêng tư, tuân thủ các yêu cầu bảo mật nội bộ và tránh các rủi ro về truy cập trái phép.
 
+#  3 Phân tích ca sử dụng Payment
+
 ## 3.1. Các lớp phân tích
 
 - **Boundary**: `PaymentForm`, `ProjectManagementDatabase`
@@ -30,10 +32,10 @@
 
 ## 3.2. Nhiệm vụ của từng lớp phân tích
 
-- **PaymentForm**: Hiển thị UI và các trường input để người dùng nhập
-- **ProjectManagementDatabase**: Truy xuất thông tin theo payment method hiện tại để hiển thị lên UI
-- **PaymentController**: Xử lí các request payment
-- **Employee**: Đại diện cho employee, chứa các thông tin và phương thức liên quan đến employee
+- **PaymentForm**: Hiển thị giao diện người dùng (UI) và các trường input để người dùng nhập thông tin thanh toán.
+- **ProjectManagementDatabase**: Truy xuất thông tin theo phương thức thanh toán hiện tại để hiển thị lên giao diện người dùng.
+- **PaymentController**: Xử lý các yêu cầu thanh toán.
+- **Employee**: Đại diện cho nhân viên, chứa các thông tin và phương thức liên quan đến nhân viên.
 
- 3.3. ![Class Diagram](https://www.planttext.com/api/plantuml/png/TLFBReCm4BpdAtniHV83A8gI0fLGIuBQz5mji4bf_Q2sYOIY_7kNHnu4UhHdrZExiruQ2zgMWazI3iQm62g1qZuhBTXydgXIPg2hnO8T9umvBCjDmQ7gM9l2vagQXyS6swFjxYEqNoeBPL7Q6ckW27AUo_qgopGQqyUUGFwiqfJ4x0LWJgVbARdBjO1QgWS4MYiTqMEmHm9EatuBL6UruXmrDPAsXtCVfDa8UQNMHEtPRZKEmFCCBDuODN304MPPrBnxuEf6gszCgNr9DckA3nOIC3WotiRMJdNDziq5ek2gGXmgd15wa7YvlQQ57HBwp6MvjFMb185qCbPJ6WshkBL-WTWn3hsNZtZAebNuEcL--1Pusqy_Y3VluVRKL2QKsthm7hH9hakHqEolaCD4RmTwLGOvJMamNkT-gTh6RxTqDXj9t6KQVqiqTNH3j2xvDnQNKPv0zUGDQGt6woz3Trcx02IqH9dHJ_e3) <br>
-   3.4. ![Sequence Diagram](https://www.planttext.com/api/plantuml/png/dPHDJiCm48NtESKiGO8Bi43z0wcBIXM80qpZQJ5rxE1nAkNsZFFJEZIHABlQdlVvUUQbCmxeGrMOZ8_QWdTC6UR1UNWfIkDg8a263oQVxLnb5VeQjbWNPCEhyqMMEnkyC_tUibqQAPUL3lK08xypXG5to0HRxxue3nkqUA2eNVKdKhbQP5cy51wVq-lW2Txeko8E3C51LGgDe6mBeA3mwLIqhqznF_MPGYxCYrqX-vPyTtz5I5vrBHJQQY7o0uMrtGiVWtPsMNalTLrvtuHDup2zGHugwWb7iLTYAtXD9pGYKvGAHxqCkzNP-DKYq1UZANFokNtRcf4ymKfpQR3cCzQL4SKZhARv4wDy9oC1uDuKMWLoI9u7_luxJfb7jzrsVMtBIeRx40ysg8ssXxbIdfZJamNQuppF9UgXsxuv3MDcP7mwPhLdZWeb9LBAJLS6rbCJyHkAXNticAPhp-5goUtdSXMZZZPcMnPxxGlkfAam-lX305KRbGxKJ7HeuERCvGbgAd0piah-qtu0)
+ ## 3.3. ![Class Diagram](https://www.planttext.com/api/plantuml/png/TLFBReCm4BpdAtniHV83A8gI0fLGIuBQz5mji4bf_Q2sYOIY_7kNHnu4UhHdrZExiruQ2zgMWazI3iQm62g1qZuhBTXydgXIPg2hnO8T9umvBCjDmQ7gM9l2vagQXyS6swFjxYEqNoeBPL7Q6ckW27AUo_qgopGQqyUUGFwiqfJ4x0LWJgVbARdBjO1QgWS4MYiTqMEmHm9EatuBL6UruXmrDPAsXtCVfDa8UQNMHEtPRZKEmFCCBDuODN304MPPrBnxuEf6gszCgNr9DckA3nOIC3WotiRMJdNDziq5ek2gGXmgd15wa7YvlQQ57HBwp6MvjFMb185qCbPJ6WshkBL-WTWn3hsNZtZAebNuEcL--1Pusqy_Y3VluVRKL2QKsthm7hH9hakHqEolaCD4RmTwLGOvJMamNkT-gTh6RxTqDXj9t6KQVqiqTNH3j2xvDnQNKPv0zUGDQGt6woz3Trcx02IqH9dHJ_e3) <br>
+ ## 3.4. ![Sequence Diagram](https://www.planttext.com/api/plantuml/png/dPHDJiCm48NtESKiGO8Bi43z0wcBIXM80qpZQJ5rxE1nAkNsZFFJEZIHABlQdlVvUUQbCmxeGrMOZ8_QWdTC6UR1UNWfIkDg8a263oQVxLnb5VeQjbWNPCEhyqMMEnkyC_tUibqQAPUL3lK08xypXG5to0HRxxue3nkqUA2eNVKdKhbQP5cy51wVq-lW2Txeko8E3C51LGgDe6mBeA3mwLIqhqznF_MPGYxCYrqX-vPyTtz5I5vrBHJQQY7o0uMrtGiVWtPsMNalTLrvtuHDup2zGHugwWb7iLTYAtXD9pGYKvGAHxqCkzNP-DKYq1UZANFokNtRcf4ymKfpQR3cCzQL4SKZhARv4wDy9oC1uDuKMWLoI9u7_luxJfb7jzrsVMtBIeRx40ysg8ssXxbIdfZJamNQuppF9UgXsxuv3MDcP7mwPhLdZWeb9LBAJLS6rbCJyHkAXNticAPhp-5goUtdSXMZZZPcMnPxxGlkfAam-lX305KRbGxKJ7HeuERCvGbgAd0piah-qtu0)
