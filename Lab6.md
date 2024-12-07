@@ -1,0 +1,55 @@
+# Thiết kế chi tiết các lớp trong Payroll System
+## 1. Employee Management Subsystem (Quản lý nhân viên)
+### Xác định các operations
+![](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bToJc9niO9hRa5EVcLggczYNc9wQcvgNabmQL9nPN59Qgv2DPS242IcfC0KQMY2HOfIS_FBKj44ImjI4alWWYwf9OcPESLGkPpCuXAO34YibiiXDIy5v0W00000__y30000)
+### Xác định các trạng thái
+![](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bUqLgo2hgwTWcTAJYeNY03p75DIClFINNCBSl8hKrCLh4022Z0kGbbGQcv-6Qf2i50g5hMX1Ic99QXgmKAf2Ywf9OcPESK8fM6PgUL8Aek1Ia522ZwPnILSQ4w3knt3BN0P39lXCXWMmMKSKlDIGC430000__y30000)
+### Xác định các thuộc tính
+![](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bToJc9niO9hRa5EVcLgga8rbuA2ha9cYfL2S4bHPbuwc9kNc9kA8f2IMW3KdfkQLu8YN91Vd5cIcP-78bYSc9DOL6cbu99VcfIJobNBvP2QbmAo6G000F__0m00)
+### Xác định các phụ thuộc, quan hệ kết hợp
+![](https://www.planttext.com/api/plantuml/png/b99DJiCm48NtFiMe-ruW2rG9a621L95Ah2Vsa5frxCW_HH7qP2mu4bSWJehhq6I1b--DdlszyVVdryPvj3uqYhN83rWJhEwRLfcE29vGzq93saCPAjSvJyqAtXdqXojq3jBeA8w7pkAZA41gdpaQ6ogWz5RgEfDRuwINHizO5Jh9IrHekmA42PMYp7qpzl1WWdKJxyHEx4Bpqiz0oVSaWg8bZZYKPd8MTnQlMPOfuwlki9kX6RhUoTaII8ihPqgonSuQfU0M5GyAOsDBFB-ZEKexQlyXySQZccb_U5VQ_NhzSPDkB61hpL4ASYaN17g4LsF13L70Bm1_KYPxAE2PECbZ7nKhJRiOebA6haTt7_y1Ovk-n_YRVm000F__0m00)
+## 2. Work Schedule Subsystem (Quản lý lịch làm việc)
+### Xác định các operations
+![](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bToJc9niK9uVb5sS796QaffJcfmQL9nPN59Qgv2DPS242GNfIQMfC9aDJJ1WgK5APY2PPcfvMX2AQavgIZgQhaSKlDIG3O30000__y30000)
+### Xác định các trạng thái
+![](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bUqLgo2hgwTWcTAJYeNY03pd8jI4qioyzA3apDIKqg1WbOGeLG5c0X2RMX12hfQi10sjM6PgUMeIa4YM1IwfEQaeXaA5a8o5CEDS6zWk0WkWsu_N0B3FhYCGsfU2YYW00000F__0m00)
+### Xác định các thuộc tính
+![](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bToJc9niK9uVb5sS796QaffJgf2DPU2Wgv2CPJhcMAb45nIb9cN3XPEpIt8oQzCHHS6cnUIcPjgfU2IM98AOa6KvwLW4Iq7MkUIM5bifU2JMLnY0p77ZgkMom6e7kGg00000F__0m00)
+### Xác định các phụ thuộc, quan hệ kết hợp
+![](https://www.planttext.com/api/plantuml/png/b5BBJiCm4BpxArQzzmToG9K02Gv8Y5JYlB6NOdLZHtw0ej8luy0dyGiupPkc4knnPxoUcTtlpw-D3-X2B5bKAFUu8rWzMxU7NBwIYaoGnyBNFb2vWeE0L9BHUsX80wS5sl9Tyrvbe4sO85HMR6jQGDxJi1kiCyY3qsOtdTQes-gI5Z0owWmvYgCOdTnsFy83cjGeoOHBVWRguK-A3IvAggpNGLkp01NejSoHqIMVoiQ2wLS2TpOwFyFcRXwnTfOPhf5bP6p-kUIcfqxDL6tlFti9DY0lQ3xfcbt0UlrnDMQOmHCb__H6VfWEYW9gzl1YNNyaJKBdOthnASIqOZzS52WCU7hUMG4v9Y749f6RE_u1003__mC0)
+## 3. Payroll Calculation Subsystem (Tính lương)
+### Xác định các operations
+![](https://www.planttext.com/api/plantuml/png/B8xB3S8m44Jlhi97qaKaA0395IpE2baQEvRN2x8GbN58IRI0Gpp7DvhFzxFDKgbKZJ0U96AlrCeAd0bUGJMioUbDcbIEzcLibnyMEmALTfh-zCw9IuSzBmXvKCePxSAB-hr91dq4VeuTfp4U9MypSrhs8py0003__mC0)
+### Xác định các trạng thái
+![](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bUqLgo2hgwTWcTAJYeNY03pd1Dpaajp4aioyzA34tCIYoeLhE1YgGeG8OHgzzIyr2Amue34okASp0AWQgXOgW9K2A7QiQ0WfnAerYKrfJIv93C_hnYe72oeW112A0_BJ2q7EQCqDnVY3f200fJBXUbGk6SmNGMNmk84k1oQVN1nXzIy55200G000F__0m00)
+### Xác định các thuộc tính
+![](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bToJc9niK90OcLHVawEGZMNWeAkGW64vvbYfH1SKfIPbmuMJSqjoCclJ4r54qvAB4uDJin9BAgqKd39BqtAIGKBfwIcb2QNPERd5QC8b-IN9EPWKGwqiZWdiy0biIGLA0uakMgv75BpKa1E10000F__0m00)
+### Xác định các phụ thuộc, quan hệ kết hợp
+![](https://www.planttext.com/api/plantuml/png/b5J1JiCm3BttAwpTzmCz8113WWCIeWZERkgDQ6bInGce6lio3dmIlq3IhkswTMZB8GS_--Kzs-tlzyyrExJEbogfKAnnHJ1xmjeQfU0MbV0AdJGQCfzppOxA6MmI24SeP8OkjOsrfsfZ3qKAKhizWCfAcPhe6776eSfGeQrJA8pF5JNeDjacWwwxNJqyeWw1ahGxfQjFtPprliQIKiYSbNgrxyImZEude1nPYWd5xVaqTdrllEK9B4UzlX72UEr6l6ElRu41Cl5EXLTqocLCwdFsdV8kUCaCekO5rXDUcmrvaPCj8bqS8MCdOKN-crG77snGZ5sY7ikseKVjtd4jq0MHyHuaTiixdtzT3HkJmZC5B_H1tBy71JcKYc5fRBVV88RFOqmr6aka4oGZM-nmFvhpgBhkXFw6JdDVKA33Zg59gAmHn1n7qDKSsdebAvSowB0aP2LZoe6jfWo5y1P5dIJNuSduO_W3003__mC0)
+## 4. Payment Subsystem (Thanh toán lương)
+### Xác định các operations
+![](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bToJc9niK90OcLkQbv9S6bISMLnIMgkGZMN0X0K5EKdfnONGsKrDC62oVbvQPb5kQY2PPcfvL0HZypYaloYIg14BPT3QbuAo1O00000__y30000)
+### Xác định các trạng thái
+![](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bUqLgo2hgwTWcTAJYeNY03p0ehoarEBYpFpqWCIAtDJyqeKh61Y2b0HX6Bd_BoqpA9S5CLGCKp5OPcfvGYL7fd59Vb5bK0D8745A9SBqtgu4p4jWqjXDnekxP2QbmBoCHS0003__mC0)
+### Xác định các thuộc tính
+![](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bToJc9niK90OcLkQbw9GZMNWeAkGW64vvbYfH1SKfIPbmuMJSqjoCclJ4r54qxCpI_DAx5ISCalJSf9HTRlabYI2XG7aiYYlgab6Va88sgv75BpKa0kuG80003__mC0)
+### Xác định các phụ thuộc, quan hệ kết hợp
+![]()
+## 5. Reports and Analytics Subsystem
+### Xác định các operations
+![](https://www.planttext.com/api/plantuml/png/R54xZW8n3Erp2cigABW0nGeajg13S08pOusYpIHHx2coQ4wsnHvfhx3vy1a4BcBflMU_P-NlvtV3Wa76mIYFxHVs1CsHl0l2WBQ3hKKJHRSCf_7CaOM61YuAKhK6cQ6Ahr2jKA3z3jQWhSm8qM8eeIS9slOpedLMoCexgYTB0OMwNNgI8BT2JxCGZvINDwCruaAYfvl1Ccsgy4oFUSit9GTSB9-pJAgqXyzgzN4xVNqtuYAwmbdHV0xUk4ZK95K-4hLbw981uDcDyg8_O0pEc2UvhrWPKvFQaEtoT_q3003__mC0)
+### Xác định các trạng thái
+![](https://www.planttext.com/api/plantuml/png/L90z3i8m38NtdC8pKYvG8LGa95R4YXXCOzf89GGdAOTZu4XSWJYK5ZRhlS_FFw_7imuHEQPBhmwB8sYzWYqvOepMjMekYxDXF4UeWCbVEKB3X96C-iW2x6cmT1UyWkGCSKP5KRCXsDfxlWvaIfGOu364dFIFVSSr7RgMGcPloNB6fdwXTkdKsz2DQMKnffvGycQlZEMciyClYADIRbzgFI6g9cVaAMy0003__mC0)
+### Xác định các thuộc tính
+![](https://www.planttext.com/api/plantuml/png/Z9B1JiCm343l_Gfhf-xG7vYcQXEx877Qli2qfef8aobs4GFjopZmIVm2ILkoR0I975B9puhzN7zzV6vOqCdGw-A8pJDs18iz7QqJ1ZGjR0tgawY6uJ0yyec5-WMy5-1Fev4PfkGv54u5RWpTxs05oaW2H8ac7ps8KwPBG6EDa94SwiYGGw5svo-V43uHGyHJ6-NIPxnOrIOPz1h8p9-iw_5IPtbTyLmaOXVpr0r3b1LdxFxKRb4mf-Q81vsHXgdA6tbNBF_LuvqVeBDQayly2VOlF2YMzJI4-bPdb9nJuejrPiWHbjUkeSN8Veq-alteMzwEC2-OKwkg-cVVLZ0mJRNcI83RH2Vi52h3nRdOa6d3Xdy3003__mC0)
+### Xác định các phụ thuộc, quan hệ kết hợp
+![](https://www.planttext.com/api/plantuml/png/N9312i8m38RlVOgmex2XrnvaWXUlYWyGsZ0ANJVQx3349_FW8_aARhLspXm2-Vd_ZoIlnxCEZ9w7rWfbCGGuKzzvXfk0M3wE9ot1E4uQ6xOauSBUk2Pf3JdooAIFKvCmTt4NYNbmQ4SsAcGiVfK_yjZ_WpKoPYaJhu5yXWtJiERCYiEMVeFfi69NG5b2iQsgJV7XoBnzWBrObbrRKrv2xpizgEYDyRLjYKj0DTb2T8gQd9w__0O00F__0m00)
+## 6. Admin and Security Subsystem
+### Xác định các operations
+![](https://www.planttext.com/api/plantuml/png/T59BJiGm3Dtt55PNWyHSe0iq8s31OYH4Jv19hIeYiQlO7LIXdem5H-8Af3_Kmf1DfFVni-DyVNmUH4tKDlYiCVRLr0ZviGgEm5059TesEksWRC_IYMB8uJs3TAmt8Z0f9sGwPa2U7g00Hxh2My589c0YIesEwXNNf59l7AjhN6J_ozElyfV-xfaqAJt6JJEUQqUx9NgfSliJk20tAU7CxBTMRdKtZpDECwWkxAfrToYeptEr_yLzDbvNkjtlx-P7B4066WMCjIWoEYPg4EMFeV7S8SB9KDfIGDBrLWe88_x7zu8DHvLndKSolbDdPUla2qR1PEsp0r8r_8Ll0000__y30000)
+### Xác định các trạng thái
+![](https://www.planttext.com/api/plantuml/png/RD2n2W8n30RWlK-HMUWBYCYvE0cAgpYKDfw5scgJA3wRWu_aAtXNJxs3Mmhf_z6aUJsU5R79BAUWTfCzQ3s7LQfzLEKizKBuY96zDOmEfc0pkhOsWU1gWdSzkpG-5EHZYVfOTU6lHyCoShwhOOSkhz6jXHiZX1b2gWcIy8ZT8Y5l3D4jPLVUl0WIm_bxbLkWXcpiOyK1YRL8T93FHcPQ_wTH5KRNxkeD003__mC0)
+### Xác định các thuộc tính
+![](https://www.planttext.com/api/plantuml/png/V5F1Ri8m3BttAonEJ88Vg2R4D2v8793w1QRnkeZMgU8KX2Q-R8TzqdvXQSiWNTFbrFezF_lPoVVdrreSMjTKPL9ZViI2OFQYAis0h22ZlB7QNI1h3d8HHzKCFXBm9ozH17fc7sdF4h2DR3UGWcONn1iXorYH1p9dDHS1Ldkfix4gXbbJHd80IbDedezK5sEn9_zrC5u6ESYt9EJsD-vyq7MRS39QTUnh4jYzZoDqBBTWnFJKCBoOsxK6FB91H-4io5PQH1kMcEt28hlzWpFiV15D7_ZvTNyoHvhKcPv0j_1NmyxlfIGxNdrRTgV5FNVCLL0JbUfYVIbFw_uYpJMryZC9k0zxFQIs_6R-4L1KKbGWvkkle-LoTRlMALJ8_a78WzUXzrkGmZjASatMnAfzG3y0003__mC0)
+### Xác định các phụ thuộc, quan hệ kết hợp
+![](https://www.planttext.com/api/plantuml/png/R9112i8m44NtESMGfT2YsooaWXl1NV40iHb2e8cIJ2j5F9aBZ-GLJDfI6d1sy-U_cSzytvygaFJKsPOrhGm13ieQ1qy6OydKdPG0usYMdBGee2Pld6OlDcENW7wXkjZaK5B-WpKsdJSqd6zwuTkRpd4o5cDEUnTmb8IpYZqwMc-SilCTXw80lYtB3P-22R3IIOq1zcmKSiywWu2uJclqoRiUvCXqIe37tk035Lo7w6SLEfL--GC00F__0m00)
